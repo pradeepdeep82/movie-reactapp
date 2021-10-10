@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+}
+h1{
+  color: #f5c518;
+}
+span{
+  color: #357fe2;
+}
+.movieCard{
+
+  border-bottom: 5px double rgb(119, 216, 211);
+}
+.button{
+  border-radius: 0.5rem;
+}
+.msg{
+  text-align: justify;
+  padding-left: 10%;
+  
+  padding-right: 10%;
+}
+.btn{
+  margin: 30px;
+}
+
