@@ -132,7 +132,7 @@ function App() {
           setMovie={setMovie}
         />)
 })}
-      <Button className='btn btn-primary' onClick={()=>setadd(true)}>Add Movies</Button>
+      <Button  onClick={()=>setadd(true)}>Add Movies</Button>
       {add && <AddMovies movie={movie} setMovie={setMovie}/>}
       
     </div>
