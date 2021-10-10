@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-//import Button from '@mui/material/Button';
+import Button from '@mui/material/Button';
 //Movies 
 const movies = [
   {
@@ -132,7 +132,7 @@ function App() {
           setMovie={setMovie}
         />)
 })}
-      <button className='btn btn-primary' onClick={()=>setadd(true)}>Add Movies</button>
+      <Button className='btn btn-primary' onClick={()=>setadd(true)}>Add Movies</Button>
       {add && <AddMovies movie={movie} setMovie={setMovie}/>}
       
     </div>
