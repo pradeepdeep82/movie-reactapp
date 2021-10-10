@@ -132,7 +132,7 @@ function App() {
           setMovie={setMovie}
         />)
 })}
-      <Button  onClick={()=>setadd(true)}>Add Movies</Button>
+      <Button  variant="contained" onClick={()=>setadd(true)}>Add Movies</Button>
       {add && <AddMovies movie={movie} setMovie={setMovie}/>}
       
     </div>
